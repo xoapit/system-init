@@ -57,4 +57,4 @@ Install-PowerShellModule 'nvm' {
     Set-NodeVersion -Persist User latest
 }
 
-Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/aaronpowell/system-init/master/windows/Microsoft.PowerShell_profile.ps1' -OutFile $PROFILE
+Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/xoapit/system-init/master/windows/Microsoft.PowerShell_profile.ps1' -OutFile $PROFILE
