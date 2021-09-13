@@ -39,7 +39,7 @@ function Install-PowerShellModule {
 Install-Chocolatey
 
 Install-FromChocolatey 'git'
-Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/aaronpowell/system-init/master/common/.gitconfig' -OutFile (Join-Path $env:USERPROFILE '.gitconfig')
+Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/xoapit/system-init/master/common/.gitconfig' -OutFile (Join-Path $env:USERPROFILE '.gitconfig')
 
 Install-FromChocolatey 'vscode-insiders'
 Install-FromChocolatey 'dotnetcore-sdk'
