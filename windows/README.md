@@ -76,3 +76,13 @@ Make sure that you include ; at the end “ALTER ROLE” should be displayed as 
 Open original pg_hba.conf file and change back from trust to md5
 
 Restart the server with Services app as before
+
+**Add NODE_PATH**
+
+```
+
+%USERPROFILE%\AppData\Roaming\npm
+
+```
+Append ;%AppData%\npm to Path in order to use it as a command line tool (if supported, like jshint and grunt-cli).
+Create NODE_PATH and set it %AppData%\npm\node_modules

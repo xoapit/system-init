@@ -6,3 +6,4 @@ $JAVA_HOME = $target.Replace($target.SubString($target.LastIndexOf('\')),"");
 
 $outpath = "$Env:UserProfile\Android\PowerShell";
 [Environment]::SetEnvironmentVariable("Path", "$env:Path;$outpath\tools", "User");
+
